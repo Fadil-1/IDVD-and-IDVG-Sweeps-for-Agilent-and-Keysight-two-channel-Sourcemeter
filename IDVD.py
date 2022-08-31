@@ -1,5 +1,5 @@
 """
-Written by Fadil Isamotu
+Author: Fadil Isamotu
 November 16, 2021
 isamotufadil15@gmail.com
 """
@@ -13,7 +13,7 @@ import csv
 from matrix_state import mtrx, matrix_Close
 
 #------------------------------------------------------------------------------------------------PYVISA INITIALIZATION-------------------------------------------------------------------------------------------------
-# pyvisa's resource manager to get devices Id
+# pyvisa's resource manager to get devices ID
 rm = pyvisa.ResourceManager()
 #print(rm.list_resources()) #__Optional__ To check what visa devices are available
 smu  = rm.open_resource('ENTER YOUR SMU ID HERE') # SMU ID
